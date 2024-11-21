@@ -2628,3 +2628,31 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
+
+/*--hover effect--*/
+.single-service {
+  transition: transform 0.3s ease;
+}
+.single-service:hover {
+  transform: scale(1.1);
+}
+
+.filters-content .item img {
+  transition: transform 0.3s ease;
+}
+.filters-content .item img:hover {
+  transform: scale(1.1);
+}
+
+.review-area .single-review img {
+         width: 80px; 
+         height: 80px; 
+         border-radius: 50%;
+         object-fit: cover;
+        }
+html {
+  scroll-behavior: smooth;
+}
+.navbar-nav .nav-link {
+  cursor: pointer;
+}
